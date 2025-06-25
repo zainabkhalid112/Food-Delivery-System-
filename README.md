@@ -1,2 +1,19 @@
-# Food-Delivery-System-
-A simple and interactive desktop application for ordering food, built using Java and Swing with OOP principles.
+// FoodItem.java
+//code for backend logic
+public class FoodItem {
+    private String name;
+    private double price;
+
+    public FoodItem(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
