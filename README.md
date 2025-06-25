@@ -1,4 +1,5 @@
 // FoodItem.java
+//code for backend logic
 public class FoodItem {
     private String name;
     private double price;
